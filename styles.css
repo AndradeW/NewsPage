@@ -9,7 +9,7 @@ body{
 
 .container{
     background-color: rgb(23, 114, 199);
-    width: 100%;
+    width: auto;
 }
 
 .icono{
@@ -29,8 +29,8 @@ body{
 
 
 .noticia{
-    width: 100%;
-    
+    width: auto;
+
   }
 
 .noticias{
