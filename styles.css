@@ -5,10 +5,11 @@
 body{
     background-color: rgb(14, 49, 34);
     color: rgb(40, 110, 110);
+    width: auto;
 }
 
 .container{
-    background-color: rgb(23, 114, 199);
+    background-color: rgb(21, 107, 187);
     width: auto;
 }
 
@@ -61,7 +62,27 @@ body{
 
 footer{
     text-align: center;
-    background-color: rgb(23, 56, 56);
+    background-color: rgb(38, 41, 41);
     height: 40px;
     
 }
+
+@media only screen and (max-width: 600px) {
+    .noticias{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 40px 15px;
+    }
+    .finalsi{
+        background-color: rgb(65, 62, 62);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 40px 30px;
+    }
+    .noticia{
+        width: 4px;
+    
+      }
+  }
